@@ -1,3 +1,14 @@
 li a i.resize {
 	font-size: 16px !important;
 }
+
+li a span.menu-icon {
+	float: left;
+	width: 2%;
+}
+
+li a span.menu-text {
+	float: right;
+	width: 98%;
+}
+
