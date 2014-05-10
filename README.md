@@ -1,4 +1,6 @@
 kamapp
 ======
 
-App for kamasutra orientations developed with jQuery Mobile.
+App for Kamasutra Sex Guide.
+Developed with jQuery Mobile.
+Studies with JS.
