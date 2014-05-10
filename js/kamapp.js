@@ -1,8 +1,8 @@
 // Responsive logo
 $(document).ready(function() {
-     $width = $('#content').width();
+     $width = $('#header-logo').width();
      $('#header-logo img').css({
-     	  'max-width' : $width , 'height' : 'auto'
-          });
+		'max-width' : $width , 'height' : 'auto'
      });
+});
 
