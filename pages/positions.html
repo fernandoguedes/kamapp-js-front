@@ -5,23 +5,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 		<!-- FontAwesome - http://fontawesome.github.io/Font-Awesome/ -->
-		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/font-awesome.min.css" />
 
 		<!-- Kamapp Files -->
-		<link rel="stylesheet" href="css/kamapp.css" />
-		<script src="js/kamapp.js"></script>
+		<link rel="stylesheet" href="../css/kamapp.css" />
+		<script src="../js/kamapp.js"></script>
 
 		<!-- jQueryMobileCSS - original without styling -->
-		<link rel="stylesheet" href="css/jquerymobile.css" />
+		<link rel="stylesheet" href="../css/jquerymobile.css" />
 
 		<!-- nativeDroid core CSS -->
-		<link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+		<link rel="stylesheet" href="../css/jquerymobile.nativedroid.css" />
 
 		<!-- nativeDroid: Light/Dark -->
-		<link rel="stylesheet" href="css/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
+		<link rel="stylesheet" href="../css/jquerymobile.nativedroid.light.css"  id='jQMnDTheme' />
 
 		<!-- nativeDroid: Color Schemes -->
-		<link rel="stylesheet" href="css/jquerymobile.nativedroid.color.red.css" id='jQMnDColor' />
+		<link rel="stylesheet" href="../css/jquerymobile.nativedroid.color.red.css" id='jQMnDColor' />
 
 		<!-- jQuery / jQueryMobile Scripts -->
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -32,44 +32,34 @@
 
 		<div data-role="page" data-theme='b'>
 
-			<div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b' id="header-logo">
-				<img src="img/system/logo-kamapp.png" />
-			</div>
+	        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+	            <a href="../index.html" data-ajax="false"><i class='icon-chevron-sign-left'></i></a>
+	            <h1>Positions</h1>
+	        </div>
 
 			<div data-role="content">
-
-				<ul data-role="listview" data-inset="true" data-icon="false" data-divider-theme="b">
-					<li data-role="list-divider">
-						Home
-					</li>
-					<li>
-						<a href="pages/positions.html" data-ajax="false"><i class='icon-heart resize'></i>&nbsp;&nbsp;&nbsp;Positions</a>
-					</li>
-					<li >
-						<a href="pages/men.html" data-ajax="false"><i class='icon-male'></i>&nbsp;&nbsp;&nbsp;For Men</a>
-					</li>
-					<li >
-						<a href="pages/women.html" data-ajax="false"><i class='icon-female'></i>&nbsp;&nbsp;&nbsp;For Women</a>
-					</li>
-					<li >
-						<a href="pages/preferences.html" data-ajax="false"><i class='icon-star resize'></i>&nbsp;&nbsp;&nbsp;Their Preferences</a>
-					</li>
-					<li>
-						<a href="pages/curiosities.html" data-ajax="false"><i class='icon-quote-left resize'></i>&nbsp;&nbsp;&nbsp;Curiosities</a>
-					</li>
-					<li>
-						<a href="pages/share.html" data-ajax="false"><i class='icon-share resize'></i>&nbsp;&nbsp;&nbsp;Share</a>
-					</li>
-					<li data-role="list-divider">
-						Informations
-					</li>
-					<li >
-						<a href="pages/about-app.html" data-ajax="false"><i class='icon-info-sign resize'></i>&nbsp;&nbsp;&nbsp;About the App</a>
-					</li>
-					<li>
-						<a href="pages/about-author.html" data-ajax="false"><i class='icon-user resize'></i>&nbsp;&nbsp;&nbsp;About the Author</a>
-					</li>
+				
+				<ul data-role="listview" data-inset="true" data-divider-theme="b">
+				  <li>
+				    <a href="#">
+				    <img src="../img/positions/the_two_dragons.jpg">
+				    <h2>The Two Dragons</h2>
+				    <p>
+				    	Pleasure: <i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i> <i class="icon-star"></i> 
+				    	Difficulty: <i class="icon-star"></i> <i class="icon-star"></i>
+				    </p>
+				    </a>
+				  </li>				
 				</ul>
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="star-empty">Rate</a></li>
+					<li><a href="#" data-icon="ok">Done</a></li>
+					<li><a href="#" data-icon="share-alt">Share it!</a></li>
+				</ul>
+			</div>
+		</div>
 			</div>
 
 		</div>
