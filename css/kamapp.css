@@ -1,3 +1,7 @@
 li a i.resize {
 	font-size: 14px !important;
 }
+
+.ui-page {
+	-webkit-backface-visibility: hidden !important;
+} 
