@@ -58,12 +58,13 @@
 
 		</div>
 		<script>
-		    $('body').on('pagebeforecreate', function(event){
-			//event.preventDefault();
+		    $(document).on('pagebeforecreate', function(event){
 				$.ajax({
-					url: 'http://fguedes.techtree.biz/kamapp/api/api.php?format=json&position=the-two-dragons',
+					url: 'http://kamapp.techtree.biz:666/positions',
 					cache: false,
 					success: function(data) {
+						console.log("data");
+						console.log(data.json);
 						buildHtml = [];
 						buildHtml.push('<li>');
 						buildHtml.push('<a href="#">');
