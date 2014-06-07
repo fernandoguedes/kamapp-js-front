@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 $('body').on('pagebeforecreate', function(event) {
 	$.ajax({
-		url : 'http://fguedes.techtree.biz/kamapp/api/api.php?format=json&position=the-two-dragons',
+		url : 'http://kamapp.techtree.biz:666/positions',
 		cache : false,
 		success : function(data) {
 			buildHtml = [];
